@@ -33,13 +33,22 @@
 * usermod option parameters username 
 #### Options, 
 - -u :- user id
-- -g :- primary group 
-- -c :- Comment 
-- -s :- login shell 
-- -G :- secondary group 
-- -l :- login name 
-- -L :- lock user password 
-- -U :- unlock user password 
+  - usermod -u 1001 username
+- -g :- primary group
+  - usermod -g groupname username
+- -c :- Comment
+  - usermod -c "Description" username
+- -s :- shell type
+  - usermod -s /bin/bash username  
+- -G :- secondary group
+  - usermod -G group1,group2 username
+- -l :- login name
+  - usermod -l newuser olduser
+- -L :- lock user password
+  - usermod -L username
+- -U :- unlock user password
+  - usermod -U username
+
 
 # To Remove user-
 - delete exiting user acc

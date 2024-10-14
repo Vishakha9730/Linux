@@ -15,7 +15,7 @@
 - local user accounts or standard user accounts are for the people who need to work on a system and who need limited access to the resources on that system.
 - These user accounts typically have a password that is used for authenticating the user to the system.
 # Adding New User-
-- Adding new local user means creating user account.                                                                                                       
+- Adding new local user means creating user account.                                                                                                   
 - User can be added by root user or using root user’s privileges.
 - Whenever new user has been added, some files get affected. These files holds user accounts related information.
 - Also whenever new user is created, by default, its home directory has been generated.
@@ -32,17 +32,17 @@
 * usermod [username]- modify or changes exiting user acc.
 * usermod option parameters username 
 #### Options, 
-- -u :- user id
+- -u :- user id -> Set the user ID for the specified user.
   - usermod -u 1001 username
-- -g :- primary group
+- -g :- primary group -> Set the primary group for the user.
   - usermod -g groupname username
-- -c :- Comment
+- -c :- Comment -> Add or change the comment field for the user.
   - usermod -c "Description" username
-- -s :- shell type
+- -s :- shell type -> Add or change the comment field for the user.
   - usermod -s /bin/bash username  
-- -G :- secondary group
+- -G :- secondary group -> Set supplementary groups for the user
   - usermod -G group1,group2 username
-- -l :- login name
+- -l :- login name -> Change the login name of the user.
   - usermod -l newuser olduser
 - -L :- lock user password
   - usermod -L username

@@ -39,6 +39,10 @@ It display kernel release information.
 ### Creating Multiple Directories:
 - mkdir dir1 dir2 dir3
 - mkdir dir{1..10}
+
+### Creating Nested Directories: 
+- mkdir -p /path/to/directory
+
   
 ## rmdir (Remove Directory)- 
 - Command is used to remove empty directories in Linux.
@@ -47,11 +51,13 @@ It display kernel release information.
 # Moving and Copying-
 ## mv (Move)-
 - Command in Linux is used to move or rename files and directories 
-- mv file_name destination/
+- mv file_name /destination
+- mv old-dir/filename new_name
 ## cp (Copy)- 
 - Command in Linux is used to copy files and directories from one location to another.
 - It can be used to duplicate files and create backups.
-
+- cp file_name /destination
+- cp -r dir_name /destination 
 # echo- 
 - for printing messages or information to the console
 

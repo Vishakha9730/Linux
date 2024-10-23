@@ -23,7 +23,7 @@
 #### Syntax-
 - crontab <option>
 ##### Options-
-- -e Edit cron table
+- -e Edit/Create cron table
 - -l List cron table
 - -r Remove crontable
-- 
+  

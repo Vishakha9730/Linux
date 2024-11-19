@@ -120,7 +120,7 @@ same as manual page
 
 ## Double Redirector (>>):
 - Append the output of a command to a file, without overwriting existing content
-- command > filename.txt
+- command >> filename.txt
 
 ## Piping (|):
 - redirect the output of one command as input to another command.

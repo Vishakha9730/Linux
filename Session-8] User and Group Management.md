@@ -119,7 +119,7 @@
 - ‘gpasswd’ command is use to give password to group.
 - It also can be used to add members and assign admin to the group.
 - Specified in /etc/gshadow
-* gpasswd <option> <parameter> <groupname> 
+* gpasswd option parameter groupname 
 ### Options:
 - -a :- Add members in group
 #### Syntax-

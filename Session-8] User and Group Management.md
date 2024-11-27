@@ -85,6 +85,7 @@
 - -M :- maximum days between password change.
 - -W :- number of days of warning.
 - -I :- number of inactivation days.
+- Inactive Period = Number of days after password expiration before account is locked
 - -E :- Expiry date of user account.
 # Group Management-
 - Group is collection of user accounts that share set of permissions.

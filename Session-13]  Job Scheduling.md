@@ -7,7 +7,8 @@
 - Users can submit commands or scripts, and the atd daemon manages the execution of these scheduled jobs.
 - The scheduled jobs are managed by the atd (at daemon) service, which runs in the background and executes the queued tasks at the specified times.
 #### Syntax-
--  at “time date”
+-  at “time date” (Only provide Hrs and min)
+      -  Press Ctl+D to save and quit the job. 
 - atq- Lists jobs
 - atrm- Remove jobs
 

@@ -58,15 +58,8 @@ nano [filename].[extension]
 | `S` | Remove current line and enter insert mode. |
 | `u` | Undo the last change. |
 | `Ctrl+r` | Redo the last undone change. |
-| `H` | Move cursor to the top line of the screen. |
-| `M` | Move cursor to the middle line of the screen. |
-| `L` | Move cursor to the bottom line of the screen. |
-| `G` | Move cursor to the end of the file. |
-| `gg` | Move cursor to the beginning of the file. |
-| `<n>gg` | Move cursor to line `<n>` in the file. |
 | `/<word>` | Search for `<word>` in the file. |
-| `n` | Move to the next occurrence of the search result. |
-| `N` | Move to the previous occurrence of the search result. |
+
 
 ### Insert Mode-
 - you can actually insert or edit text. 

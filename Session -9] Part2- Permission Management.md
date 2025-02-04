@@ -7,7 +7,7 @@
 #### Syntax:
 chown user :group file/dir
 - chown newowner file.txt
-- chown newowner :newgroup directory/filename
+- chown newowner :newgroup directory/filename # sh shell
 
 ## chgrp (Change Group):
 - The chgrp command changes the group ownership of a file or directory.

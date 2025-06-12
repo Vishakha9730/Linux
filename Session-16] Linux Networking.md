@@ -9,7 +9,7 @@
   - Data transfer stats (sent/received packets)
 
 ## ping – 
-- Check internet cpnnection.
+- Check internet connection.
 - Tests if your computer can reach a server (like Google) and measures response time (latency).
 
 #### Syntax:

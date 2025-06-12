@@ -8,7 +8,7 @@
   - Network status (UP/DOWN)
   - Data transfer stats (sent/received packets)
 
-## ping google.com – 
+## ping – 
 - Check internet cpnnection.
 - Tests if your computer can reach a server (like Google) and measures response time (latency).
 

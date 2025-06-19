@@ -38,7 +38,7 @@
   - usermod -g groupname username
 - -c :- Comment -> Add or change the comment field for the user.
   - usermod -c "Description" username
-- -s :- shell type -> Add or change the comment field for the user.
+- -s :- shell type -> Change Shell Type
   - usermod -s /bin/bash username  
 - -G :- secondary group -> Set supplementary groups for the user
   - usermod -G group1,group2 username

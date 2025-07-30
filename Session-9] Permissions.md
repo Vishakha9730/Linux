@@ -53,7 +53,7 @@ details.
 ### Execute (x):
 - Enables the execution of a file or allows access to a directory's contents if used with directory permissions.
 
-# These permissions are set for three categories of users:
+# These permissions are set for four categories of users:
 ### Owner: (u)
 - The user who owns the file or directory.
 ### Group: (g)

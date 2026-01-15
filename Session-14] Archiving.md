@@ -39,6 +39,15 @@
 | 3   | xz     | -J     | .tar.xz        | unxz          |
 
 
+# ZIP Command -
+- zip is a command used to compress one or more files/folders into a single .zip archive.
+- unzip is a command used to extract files from a .zip archive.
+
+   zip [options] archive_name.zip file1 file2 folder/
+
+-r --> recursive - to zip directory
+
+   unzip [options] archive_name.zip
 
 
 

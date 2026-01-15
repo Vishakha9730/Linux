@@ -46,8 +46,13 @@
       zip [options] archive_name.zip file1 file2 folder/
 
 -r --> recursive - to zip directory
+-e --> password protection
 
       unzip [options] archive_name.zip
+
+-d --> extract directory
+-l --> listing
+
 
 
 

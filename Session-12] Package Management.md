@@ -45,4 +45,16 @@
 * List Installed Packages:
   - yum list installed
 
+# dnf - (Dandified Yum)
+- DNF is a package manager used in RHEL, CentOS Stream, Rocky Linux, AlmaLinux, Fedora.
+- It is the next-generation replacement of yum.
+
+| Feature             | YUM                        | DNF           |
+|---------------------|----------------------------|---------------|
+| Full form           | Yellowdog Updater Modified | Dandified Yum |
+| Speed               | Slower                     | Faster        |
+| Dependency handling | Not very good              | Better        |
+| Default OS          | RHEL 6 / 7                 | RHEL 8 / 9    |
+| Memory usage        | High                       | Lower         |
+| Python version      | Python 2                   | Python 3      |
 
